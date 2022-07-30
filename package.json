@@ -1,0 +1,23 @@
+{
+    "name": "plane",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "test": "vitest"
+    },
+    "dependencies": {
+        "pixi.js": "^6.5.1",
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.0.0",
+        "vitest": "^0.19.1",
+        "vue-tsc": "^0.38.4"
+    }
+}
